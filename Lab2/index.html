@@ -2,30 +2,29 @@
 <html>
 <head>
     <style>
- 
-        .font-title {
+        .fontsave-1 {
             font-family: Arial;
-            font-size: 30px;
+            font-size: 25px;
             font-weight: bold;
             margin-bottom: 10px;
         }
  
-        .font-description {
+        .fontget-2 {
             font-family: Arial;
             font-size: 16px;
             margin-bottom: 20px;
         }
  
-        .secondline-font {
+        .fontline-3 {
             font-family: Arial;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bold;
             margin-bottom: 20px;
         }
  
         .adobe-font {
             font-family: Verdana;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: normal;
         }
  
@@ -56,6 +55,9 @@
  
         .learnmore-button {
             background-color: white;
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
             color: black;
             border: 1px solid black;
             height: 30px;
@@ -63,10 +65,12 @@
             border-radius: 25px;
             cursor: pointer;
             margin-left: 8px;
+            margin-bottom: 80px;
         }
  
         .learnmore-button:hover {
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
         }
  
         .learnmore-button:active {
@@ -80,54 +84,55 @@
             margin: 80px auto 40px auto;
         }
  
-        .banner {
-            background-color: red;
+        .shop-description {
+            background-color: rgb(227, 65, 64);
             color: white;
             font-family: Arial;
-            font-size: 14px;
+            font-size: 12px;
             text-align: center;
             padding-top: 18px;
             padding-bottom: 18px;
-            margin-top: 40px;
+            margin-bottonm: 50px;
         }
  
         .shop-link {
             color: white;
             margin-left: 5px;
+            cursor: pointer;
         }
  
         .shop-link:hover {
             text-decoration: underline;
+            cursor: pointer;
         }
  
     </style>
  
 </head>
  
-
- 
-    <h1 class="font-title">
+    <p class="fontsave-1">
         Save 40% on Creative Cloud Pro for the first 3 months.
-    </h1>
+    </p>
  
-    <p class="font-description">
+    <p class="fontget-2">
         Get the plan that includes Photoshop, Acrobat Pro, and more.
     </p>
  
-    <p class="secondline-font">
+    <p class="fontspons-3">
         <img src="adobe.png" class="adobe-logo">
-        Sponsored &middot; <span class="adobe-font">adobe.com</span>
+        <strong>Sponsored</strong> &middot; <span class="adobe-font">adobe.com</span>
     </p>
  
     <button class="watch-button">Watch</button>
+
     <button class="learnmore-button">Learn more</button>
- 
+
     <div><img src="apple.png" class="apple-logo"></div>
  
-    <p class="banner">
+    <p class="shop-description">
         Shop early for the best selection of holiday favorites.
         <a href="https://www.adobe.com/" target="_blank" class="shop-link">
-            Shop now &gt;
+            <span>Shop now &gt;</span>
         </a>
     </p>
  
